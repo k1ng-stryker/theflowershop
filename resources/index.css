@@ -1,0 +1,79 @@
+html{
+    font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 4rem;
+    letter-spacing: .5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    color: black;
+}
+
+nav p{
+    font-size: 2rem;
+}
+.banner{
+    display: flex;
+    background-image: url(../resources/images/2434220.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+
+}
+.banner .text{
+    letter-spacing: 10px;
+    background-color: white;
+    margin: 0 auto;
+    max-height: 100px;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.heading{
+    margin-top: 50px;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plant{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    padding: 10px;
+}
+.team{
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.teammate{
+    letter-spacing: 5px;
+}
+.lone{
+    margin: 40px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
